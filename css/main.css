@@ -19,7 +19,7 @@ body{
 .week-readings{
 	background: #BDDBD0;
 	border: 3px solid #BDDBD0;
-	border-radius: 1em;
+	border-radius: 3px;
 	margin: .25em 0;
 	padding:.5em;
 }
@@ -27,9 +27,9 @@ body{
 .week-meta{
 	background: #CBD0B9;
 	border: 3px solid #CBD0B9;
-	border-radius: 1em;
+	border-radius: 3px;
 	margin: .25em 0;
-	padding:.5em;
+	padding:.8em;
 }
 
 .table{
