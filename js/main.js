@@ -148,7 +148,7 @@
 	function howManyMondays(date) {
 		const [mo, da] = date.split('/').map(d => +d);
 		var target = new Date(2021, mo - 1, da, 0, 0, 0, 1);
-		var now = new Date(2021, 0, 4);
+		var now = new Date();
 		now.setHours(0, 0, 0, 1);
 		if (target.getTime() === now.getTime()) return 0;
 
